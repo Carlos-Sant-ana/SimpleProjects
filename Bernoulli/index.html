@@ -1,0 +1,85 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+    <script src="path/para/math.js"></script>
+    <script src="GetDados.js"></script>
+    <script src="calcular.js"></script>
+</head>
+<body>
+    <form id="meuFormulario">
+        <label for="P1">Pressão no Ponto 1 em 
+          <select id="unidadeP1">
+          <option value="Pa1">Pa</option>
+          <option value="Psi1">Psi</option>
+          <option value="P1D">Desconhecido</option>
+          </select>
+        </label>
+        <input type="number" id="P1" name="P1"><br>
+
+        <label for="P2">Pressão no Ponto 2 em
+          <select id="unidadeP2">
+          <option value="Pa2">Pa</option>
+          <option value="Psi2">Psi</option>
+          </select>
+        </label>
+        <input type="number" id="P2" name="P2"><br>
+
+        <label for="d">Densidade do fluido em
+          <select id="unidadeD">
+          <option value="kg">kg/m³</option>
+          <option value="lb">lb/ft³</option>
+          </select></label> 
+        </label>
+        <input type="number" id="d" name="d"><br>
+
+        <label for="H1">Ponto de Altura 1 em 
+          <select id="unidadeA1">
+          <option value="km1">km</option>
+          <option value="m1">m</option>
+        </select></label> 
+        <input type="number" id="H1" name="H1"><br>
+    
+        <label for="H2">Ponto de Altura 2 em           
+          <select id="unidadeA2">
+          <option value="km2">km</option>
+          <option value="m2">m</option>
+        </select></label>
+        <input type="number" id="H2" name="H2"><br>
+
+        <label for="V1">Velocidade do fluído no ponto 1 em 
+          <select id="unidadeV1">
+          <option value="kms1">kms</option>
+          <option value="ms1">ms</option>
+        </select></label>
+        <input type="number" id="V1" name="V1"><br>
+    
+        <label for="V2">Velocidade do fluído no ponto 2 em m/s
+          <select id="unidadeV2">
+            <option value="kms2">kms</option>
+            <option value="ms2">ms</option>
+          </select>
+        </label>
+        <input type="number" id="V2" name="V2"><br>
+
+        <br>
+        <button type="button" onclick="calcular()">Calcular</button>
+        <p id="resultado"></p>
+        <p id="resultado2"></p>
+        <p id="resultadoB"></p>
+        <p id="VelocidadeConvertida2"></p>
+
+        <script>
+        switch (unidadeP1) {
+            case "P1D":
+            document.body.style.backgroundColor = "red";
+            PressãoConvertida = 500;
+            break;
+        }
+        </script>
+      </form>
+</body>
+</html
