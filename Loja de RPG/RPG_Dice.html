@@ -1,0 +1,321 @@
+<html>
+
+  <head>
+
+            <title> 
+              
+              RPG - Dice
+
+            </title>
+
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  </head> 
+
+  <body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+          
+    <a name="top"></a>
+
+    <nav class="navbar bg-body-tertiary fixed-top"  data-bs-theme="dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">RPG - Dices</a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">RPG</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="D:/Projects/RPG/RPG_Home.html">Home</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="D:/Projects/RPG/RPG_Dice.html">Dice</a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="file:///D:/Projects/RPG/RPG_Books.html">Books</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="D:\Projects\RPG\RPG_Games.html">Games</a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Musics
+                        </a>
+
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="D:/Projects/RPG/RPG_Musics_Ambiance.html">Ambiance</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Contact us
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a class="dropdown-item" href="#"> <img src="https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png" alt="..." width="20" height="20"> Instagram</a> 
+                            </li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                            
+                            <li>
+                              <a class="dropdown-item" href="#"> <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/gB76kJXPYJV.png" alt="..." width="20" height="20"> Facebook</a> 
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                              <a class="dropdown-item" href="#"> <img src="https://static.licdn.com/sc/h/5bukxbhy9xsil5mb7c2wulfbx" alt="..." width="20" height="20"> Facebook</a> 
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            
+                            <li>
+                              <a class="dropdown-item" href="#"> +00 (00) 0000-000</a> 
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                              <a class="dropdown-item" href="#"> email@email.com</a> 
+                            </li>
+
+                          </ul>
+                        </li>
+
+                      </li>
+  
+                    </ul>
+                  </div>
+                </div>
+              </div>
+    </nav>  <br><br>
+
+    <div>
+            <div class="container">
+              <p>
+                <center> 
+                  <h1>
+                    <span class="d-block p-2">
+                    DICES
+                   </span>
+                  </h1>
+                  This rotates only 1 time each among them are: D2, D3, D4, D5, D6, D10, D20 and D100. 
+                  If you need multiple rolls I recommend using another site. This one is focused on rolling only 1 time.
+                  <b class="text-danger">Pressing F5 rotates all the <b class="text-decoration-underline">dices again.</b></b>
+                </center>
+              </p>
+            </div>
+    </div>
+
+    <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">DICE</th>
+                        <th scope="col">First</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">D2</th>
+                        <td> <p id="d2"></p></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">D3</th>
+                        <td> <p id="d3"></p></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">D4</th>
+                        <td> <p id="d4"></p></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">D5</th>
+                        <td> <p id="d5"></p></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">D6</th>
+                        <td> <p id="d6"></p></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">D10</th>
+                        <td> <p id="d10"></p></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">D20</th>
+                        <td> <p id="d20"></p></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">D100</th>
+                        <td> <p id="d100"></p></td>
+                      </tr>
+                    </tbody>
+    </table><br>
+              
+    <div>
+                  <div class="container">
+                      <h2><center class="text-decoration-underline">Common dice-rolling rules for tabletop RPGs</center></h2>
+                    <p>
+                      Every tabletop RPG system comes with their own custom rules for deciding how well players characters take on challenges, 
+                      and often those rules ask the player to roll dice. From the D20-centric system of Dungeons & Dragons to the handfuls of dice used in Shadowrun, 
+                      dice rules for RPGs can be sorted into several categories - each with their own advantages and disadvantages when it comes to simulating tactical 
+                      probabilities and creating interesting plot developments.
+                    <p>
+                      Dice have been a mainstay of gaming for a great part of human history, used to play games of chance and to govern the movement of pieces in ancient board 
+                      games such the Egyptian game of Senet or the Royal Game Ur from old Mesopotamia. Some of the artifact dice recovered by archaeologists from this period were 
+                      six-sided (referred to as D6 dice in modern parlance), while other polyhedral dice had four sides, eight sides, twelve sides, or even twenty sides - ancient 
+                      versions of the D4, D8, D12, and D20 dice used by Dungeons & Dragons players to this very day.
+                    </p>
+                    <p>
+                      Tabletop roleplaying games with dice (in contrast to RPGs with dice-less mechanics like playing cards) generally incorporate said dice into their rules for conflict 
+                      resolution and challenges. RPG players don't roll dice for simple, mundane actions, but for dangerous, difficult deeds like picking a lock before the guard comes back 
+                      or casting a volatile spell to banish a malevolent demon - in other words, junctures where success or failure will change the course of the game's story. By choosing 
+                      what dice to roll and assigning certain outcomes to certain dice results, tabletop RPG designers, deliberately or otherwise, decide how often often and in what ways 
+                      player protagonists see-saw between glorious triumph, utter disaster, and the myriad of outcomes between.
+                    </p>
+                  </div>
+
+                  <div class="container">
+                    <h2>"<b class="text-decoration-underline">Roll a Die And Add A Bonus</b>"Like In Dungeons & Dragons</h2>
+                    <p>
+                      In many roleplaying system, players resolve skill checks, attacks, and the like by rolling a single dice - a twenty-sided die in Dungeons & Dragons 
+                      games - then adding a flat numerical bonus such as +3 or +5. If the sum of the dice and bonus matches or exceeds a pre-determined difficulty number 
+                      (10 often representing average difficulty) the player's characters succeeds at their challenge, and fails if they roll under.
+                    </p>
+                    <p>
+                      The advantage and disadvantage of D20 systems like D&D is that every possible dice result has an equal (5%) chance of happening: this "variance" makes it 
+                      easy for Dungeon Masters to quantify the difficulty of a challenge on the fly, but also leads to scenarios where player characters unexpectedly succeed at 
+                      challenges seemingly beyond them or fail miserably at the easiest of tasks. RPG systems like FATE or "Powered By The Apocalypse," where players roll and add a 
+                      bonus to multiple dice, have more of a "bell curve" of probabilities (as explained on the "Game Master Dice" website) where average dice results are more likely 
+                      than "critical successes" or "critical failures."
+                    </p>
+                  </div>
+
+                  <div class="container">
+                    <h2>"<b class="text-decoration-underline">Roll Under With Percentile Die</b>"Like In RuneQuest & Call Of Cthulhu</h2>
+                    <p>
+                      In "Percentile Dice" systems, frequently seen in Chaosuim games like RuneQuest or Call of Cthulhu, players will roll two ten-sided dice 
+                      (abbreviated to D10s) then combine their two single digit numbers to make a double-digit number between 1 and 100 (these two D10s are collectively 
+                      referred to as a D100).
+                    </p>
+                    <p>
+                      Unlike in Dungeons & Dragons, players of percentile dice systems generally want to roll under a set number - either an ability score or a skill score with a 
+                      rating of 20%, 75%, etc. Instead of rolling a die then adding a bonus, players of Percentile Dice RPGs will more often add bonuses or penalties to one of 
+                      their skills, then roll the dice to see if they "roll-under" and pass. Generally, percentile dice systems thrive in "simulationist" games where RPG players 
+                      want to look at their character sheet and swiftly grasp how good their character is at certain actions.
+                    </p>
+                  </div>
+
+                  <div class="container">
+                    <h2>"<b class="text-decoration-underline">Roll a Handful Of Dice</b>"Like In Shadowrun & Vampire: The Masquerade</h2>
+                    <p>
+                      The Star Wars Roleplaying Game, released by West End Games in 1987, was one of the first RPGs to introduce a Dice Pool system - 
+                      a ruleset where players resolve challenges by rolling handfuls of dice, rolling more dice the more skilled their characters are at a certain task. 
+                      Late 1980s/early 1990s RPGs like Shadowrun and Vampire: The Masquerade swiftly adopted the concept of Dice Pools with a few tweaks, having players 
+                      roll handfuls of dice equal to a combined attribute and skill score, then counting dice faces that match or exceed a certain number as "successes."
+                    </p>
+                    <p>
+                      Systems where players roll handfuls of d6 dice usually count a 5+ result as 1 success, while systems with handfuls of D10s treat an 8+ as 1 success. 
+                      Tabletop RPG players playing in these systems often enjoy the tactile sensation of clutching and tossing handfuls of dice, while Game Masters of dice 
+                      pool RPGs can easily apply bonuses or penalties to skill rolls by adding or subtracting dice from the hands of their players. Dice Pool RPGs can become a 
+                      bit complex during high-level campaigns, where players are trying to roll and count dozens of dice without spilling them off the edge of the table.
+                    </p>
+                  </div>
+                  
+                  <div class="container">
+                    <h2>"<b class="text-decoration-underline">Roll Dice Of Different Sizes</b>"Like In Savage Worlds & Cortex</h2>
+                    <p>
+                      The dice systems of narrative RPG systems like Cortex and Savage Worlds are a sort of hybrid between the dice + bonus systems of games 
+                      like Dungeons & Dragons and the dice pool systems of games like Shadowrun. In these games, players roll a small handful of dice and compare 
+                      their results to a fixed difficulty number to determine success or failure.
+                    </p>
+                    <p>Instead of adding a larger bonus or rolling larger quantities of dice, players in these systems will roll larger dice when using the stronger 
+                      attributes and skills of their PC - rolling a an eight-side D8 die in place of a six-sided D6 die, for example. In systems like these, players 
+                      can easily gauge the strength of their character at certain tasks by noting the size of the dice they roll; GMs however, might find it more 
+                      difficult to gauge the probability curve of certain dice combinations without access to a chart or computer app.
+                    </p>
+                  </div>
+
+                  <center>
+                    <h1 class="d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2">
+                      Source:
+                        <a href="https://screenrant.com/tabletop-rpg-dice-systems-rules-mechanics-good-bad/" class="link-danger link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+                        Screenrant
+                        </a>
+                    </h1>
+                  </center>
+    </div>
+
+    <div class="text-bg-dark p-3">
+              <div class="container text-center">
+                      <div class="row">
+                      
+                        <div class="col">
+                          <p>
+                            This site was created using
+                            <a href="https://getbootstrap.com/" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Bootstrap</a>.
+                            Was created with the intention of studying.
+                          </p>
+                        </div>
+
+                        <div class="col"> 
+                          <a class="btn btn-outline-primary" href="#top" role="button">Return Top</a>                   
+                        </div>
+
+                        <div class="col">
+                          Bootstrap version used: v5.3.0-alpha3.
+                        </div>
+
+                    </div>
+              </div>
+    </div><br>
+
+    <script>
+                    document.getElementById("d2").innerHTML = Math.floor(Math.random() * 2) +1;
+
+                    document.getElementById("d3").innerHTML = Math.floor(Math.random() * 3) +1;
+
+                    document.getElementById("d4").innerHTML = Math.floor(Math.random() * 4) +1;
+
+                    document.getElementById("d5").innerHTML = Math.floor(Math.random() * 5) +1;
+
+                    document.getElementById("d6").innerHTML = Math.floor(Math.random() * 6) +1;
+
+                    document.getElementById("d10").innerHTML = Math.floor(Math.random() * 10) +1;
+
+                    document.getElementById("d20").innerHTML = Math.floor(Math.random() * 20) +1;
+
+                    document.getElementById("d100").innerHTML = Math.floor(Math.random() * 100) +1;
+    </script>
+                       
+  </body>
+
+</html>
