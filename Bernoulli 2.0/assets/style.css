@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: space-around; /* Distribui o espaço igualmente entre os elementos */
+    align-items: flex-start; /* Alinha os elementos ao topo */
+  }
+  
+  .lado-a-lado {
+    float: left;
+    width: 16.66%; /* Divide a largura igualmente entre 6 divs */
+    height: 100px;
+    box-sizing: border-box; /* Garante que a borda não aumente a largura */
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+  }
+
+  body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: #333; /* Cor de fundo do menu */
+    overflow: hidden; /* Limpa o float */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove as marcas de lista */
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left; /* Alinha os itens do menu horizontalmente */
+  }
+  
+  nav li a {
+    display: block; /* Garante que o link preencha todo o item de lista */
+    color: white; /* Cor do texto do link */
+    text-align: center; /* Alinha o texto do link ao centro */
+    padding: 14px 16px; /* Adiciona espaçamento interno ao link */
+    text-decoration: none; /* Remove o sublinhado do link */
+  }
+  
+  nav li a:hover {
+    background-color: #111; /* Cor de fundo do link ao passar o mouse */
+  }
+
+  

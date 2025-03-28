@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora da Constante de Bernoulli</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+        <nav>
+            <ul>
+              <li><a href="index.html">Calculadora da Constante de Bernoulli</a></li>
+              <li><a href="conversor.html">Conversor de unidades</a></li>
+            </ul>
+          </nav>
+    
+    
+    <Center><h1>Calculadora da Constante de Bernoulli</h1></Center>
+    <div class="conteiner">
+    <div class="lado-a-lado">
+        
+        <h1>Bernoulli padrão</h1>
+        <p>Insira os seguintes valores:</p>
+
+        <label for="pressao">Pressão (Pa):</label>
+        <input type="number" id="pressao"><br><br>
+
+        <label for="densidade">Densidade (kg/m³):</label>
+        <input type="number" id="densidade"><br><br>
+
+        <label for="velocidade">Velocidade (m/s):</label>
+        <input type="number" id="velocidade"><br><br>
+
+        <label for="gravidade">Aceleração gravitacional (m/s²):</label>
+        <input type="number" id="gravidade"><br><br>
+
+        <label for="altura">Altura (m):</label>
+        <input type="number" id="altura"><br><br>
+
+        <button onclick="calcularEExibirConstante()">Calcular Constante de Bernoulli</button>
+
+        <p id="resultado"></p>
+    </div>
+
+    <div class="lado-a-lado">
+        <h1>Pressão</h1>
+
+        <p>Insira os seguintes valores:</p>
+    
+        <label for="constante">Constante:</label>
+        <input type="number" id="constante"><br><br>
+    
+        <label for="densidade">Densidade (kg/m³):</label>
+        <input type="number" id="densidade"><br><br>
+    
+        <label for="velocidade">Velocidade (m/s):</label>
+        <input type="number" id="velocidade"><br><br>
+    
+        <label for="gravidade">Aceleração gravitacional (m/s²):</label>
+        <input type="number" id="gravidade"><br><br>
+    
+        <label for="altura">Altura (m):</label>
+        <input type="number" id="altura"><br><br>
+    
+        <button onclick="calcularEExibirPressao()">Calcular Pressão</button>
+    
+        <p id="resultado2"></p>
+
+    </div>
+
+    <div class="lado-a-lado">
+        <h1>Densidade</h1>
+
+        <p>Insira os seguintes valores:</p>
+
+        <label for="constante">Constante:</label>
+        <input type="number" id="constante"><br><br>
+
+        <label for="pressao">Pressão (Pa)::</label>
+        <input type="number" id="pressao"><br><br>
+
+        <label for="velocidade">Velocidade (m/s):</label>
+        <input type="number" id="velocidade"><br><br>
+
+        <label for="gravidade">Aceleração gravitacional (m/s²):</label>
+        <input type="number" id="gravidade"><br><br>
+
+        <label for="altura">Altura (m):</label>
+        <input type="number" id="altura"><br><br>
+
+        <button onclick="calcularEExibirDensidade()">Calcular Densidade</button>
+
+        <p id="resultado3"></p>
+    </div>
+
+    <div class="lado-a-lado">
+        <h1>Velocidade</h1>
+
+        <p>Insira os seguintes valores:</p>
+    
+        <label for="constante">Constante:</label>
+        <input type="number" id="constante"><br><br>
+    
+        <label for="pressao">Pressão (Pa):</label>
+        <input type="number" id="pressao"><br><br>
+    
+        <label for="densidade">Densidade (kg/m³):</label>
+        <input type="number" id="densidade"><br><br>
+    
+        <label for="gravidade">Aceleração gravitacional (m/s²):</label>
+        <input type="number" id="gravidade"><br><br>
+    
+        <label for="altura">Altura (m):</label>
+        <input type="number" id="altura"><br><br>
+    
+        <button onclick="calcularEExibirVelocidade()">Calcular Velocidade</button>
+    
+        <p id="resultado4"></p>
+    </div>
+
+    <div class="lado-a-lado">
+        <h1>Altura</h1>
+
+        <p>Insira os seguintes valores:</p>
+
+        <label for="constante">Constante:</label>
+        <input type="number" id="constante"><br><br>
+
+        <label for="pressao">Pressão (Pa):</label>
+        <input type="number" id="pressao"><br><br>
+
+        <label for="densidade">Densidade (kg/m³):</label>
+        <input type="number" id="densidade"><br><br>
+
+        <label for="velocidade">Velocidade (m/s):</label>
+        <input type="number" id="velocidade"><br><br>
+
+        <label for="gravidade">Aceleração gravitacional (m/s²):</label>
+        <input type="number" id="gravidade"><br><br>
+
+        <button onclick="calcularEExibirAltura()">Calcular Altura</button>
+
+        <p id="resultado5"></p>
+
+    </div>
+
+    <div class="lado-a-lado">
+        <h1>Gravidade</h1>
+
+        <p>Insira os seguintes valores:</p>
+
+        <label for="constante">Constante:</label>
+        <input type="number" id="constante"><br><br>
+
+        <label for="pressao">Pressão (Pa):</label>
+        <input type="number" id="pressao"><br><br>
+
+        <label for="densidade">Densidade (kg/m³):</label>
+        <input type="number" id="densidade"><br><br>
+
+        <label for="velocidade">Velocidade (m/s):</label>
+        <input type="number" id="velocidade"><br><br>
+
+        <label for="altura">Altura (m):</label>
+        <input type="number" id="altura"><br><br>
+
+        <button onclick="calcularEExibirGravidade()">Calcular Aceleração Gravitacional</button>
+
+        <p id="resultado6"></p>
+    </div>
+</div>
+    
+
+<script src="scripts/bernoulliPadrao.js"></script>
+
+
+</body>
+</html>
