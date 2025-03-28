@@ -14,6 +14,16 @@
     display: flex;
   }
 
+  .lado-a-lado2 {
+    float: left;
+    width: 25%; /* Divide a largura igualmente entre 6 divs */
+    height: 100px;
+    box-sizing: border-box; /* Garante que a borda não aumente a largura */
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+  }
+
   body {
     background-color: black;
     color: white;
@@ -46,4 +56,5 @@ nav {
     background-color: #111; /* Cor de fundo do link ao passar o mouse */
   }
 
+  
   

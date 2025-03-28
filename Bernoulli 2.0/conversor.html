@@ -1,16 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Calculadora da Constante de Bernoulli</title>
+    <title>Conversor de Unidades</title>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
-        <nav>
-            <ul>
-              <li><a href="index.html">Calculadora da Constante de Bernoulli</a></li>
-              <li><a href="conversor.html">Conversor de unidades</a></li>
-            </ul>
-          </nav>
-    
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Calculadora da Constante de Bernoulli</a></li>
+      <li><a href="conversor.html">Conversor de unidades</a></li>
+    </ul>
+  </nav>
+
+    <div class="conteiner">
+      <div class="lado-a-lado2">
+        <h1>Conversor de Pressão</h1>
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor">
+        <select id="unidade">
+        <option value="atm">ATM</option>
+        <option value="bar">BAR</option>
+        <option value="mmhg">mmHg</option>
+        <option value="psi">psi</option>
+        </select>
+        <button onclick="converterPa()">Converter</button>
+        <p id="resultadoPa"></p>
+      </div>
+    <div class="lado-a-lado2">
+    <h1>Conversor de Densidade</h1>
+    <label for="valor2">Valor:</label>
+    <input type="number" id="valor2">
+    <select id="unidade2">
+        <option value="g/cm3">g/cm³</option>
+        <option value="g/mL">g/mL</option>
+        <option value="lb/ft3">lb/ft³</option>
+    </select>
+    <button onclick="converterKg()">Converter</button>
+    <p id="resultadoKg"></p>
+    </div>
+
+    <div class="lado-a-lado2">
+    <h1>Conversor de Velocidade</h1>
+    <label for="valor3">Valor:</label>
+    <input type="number" id="valor3">
+    <select id="unidade3">
+        <option value="km/h">km/h</option>
+        <option value="mph">mph</option>
+        <option value="nós">nós</option>
+    </select>
+    <button onclick="converter3()">Converter</button>
+    <p id="resultado3"></p>
+    </div>
+
+    <div class="lado-a-lado2">
+    <h1>Conversor de Altura</h1>
+    <label for="altura">Altura:</label>
+    <input type="number" id="altura">
+    <select id="unidadeAltura">
+        <option value="cm">Centímetros (cm)</option>
+        <option value="mm">Milímetros (mm)</option>
+        <option value="in">Polegadas (in)</option>
+        <option value="ft">Pés (ft)</option>
+    </select>
+    <button onclick="converterAltura()">Converter</button>
+    <p id="resultadoAltura"></p>
+    </div>
+  </div>
+
+  <script src="scripts/converter.js"></script>
 </body>
 </html>
