@@ -2,27 +2,24 @@
     display: flex;
     justify-content: space-around; /* Distribui o espaço igualmente entre os elementos */
     align-items: flex-start; /* Alinha os elementos ao topo */
+    background-color: black; /* Adicione esta linha */
   }
   
   .lado-a-lado {
     float: left;
-    width: 16.66%; /* Divide a largura igualmente entre 6 divs */
-    height: 100px;
-    box-sizing: border-box; /* Garante que a borda não aumente a largura */
+    width: 16.66%;
     box-sizing: border-box;
     flex-direction: column;
     display: flex;
-  }
+}
 
-  .lado-a-lado2 {
+.lado-a-lado2 {
     float: left;
-    width: 25%; /* Divide a largura igualmente entre 6 divs */
-    height: 100px;
-    box-sizing: border-box; /* Garante que a borda não aumente a largura */
+    width: 25%;
     box-sizing: border-box;
     flex-direction: column;
     display: flex;
-  }
+}
 
   body {
     background-color: black;
@@ -56,5 +53,6 @@ nav {
     background-color: #111; /* Cor de fundo do link ao passar o mouse */
   }
 
+  
   
   
