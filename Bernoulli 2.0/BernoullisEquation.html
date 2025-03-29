@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bernoulli's Equation</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Calculadora da Constante de Bernoulli</a></li>
+      <li><a href="conversor.html">Conversor de unidades</a></li>
+      <li><a href="historia.html">História</a></li>
+      <li><a href="BernoullisEquation.html">Bernoulli's Equation</a></li>
+      <li><a href="referencia.html">Referência</a></li>
+    </ul>
+  </nav>
+
+  <div>
+    <h3> Bernoulli's Equation</h3>
+    <p>The Bernoulli equation states that,</p><br>
+    <center><img src="imgs/Bernoulli_eqn_s.gif"></center>
+    <p>where</p>
+
+    <ul class="lista-pontos">
+        <li>points 1 and 2 lie on a streamline,</li>
+        <li>the fluid has constant density,</li>
+        <li>the flow is steady, and</li>
+        <li>there is no friction.</li>
+    </ul>
+
+    <p>Although these restrictions sound severe, the Bernoulli equation is very useful, partly because it is very simple to use and partly because it can give great insight 
+        into the balance between pressure, velocity and elevation.</p>
+
+    <p>How useful is Bernoulli's equation? How restrictive are the assumptions governing its use? Here we give some examples.</p>
+
+    <h4>Pressure/velocity variation</h4>
+
+    <p>Consider the steady, flow of a constant density fluid in a converging duct, without losses due to friction (figure 14). The flow therefore satisfies all the 
+        restrictions governing the use of Bernoulli's equation. 
+        Upstream and downstream of the contraction we make the one-dimensional assumption that the velocity is constant over the inlet and outlet areas and parallel.</p>
+
+    <div class="alinhamento-lado">
+        <img src="imgs/CV_force_1.gif">
+        <p>Figure 14. One-dimensional duct showing control volume.</p>
+    </div>
+
+    <p>When streamlines are parallel the pressure is constant across them, except for hydrostatic head differences (if the pressure was higher in the middle of the duct, 
+        for example, we would expect the streamlines to diverge, and vice versa). If we ignore gravity, then the pressures over the inlet and outlet areas are constant. 
+        Along a streamline on the centerline, the Bernoulli equation and the one-dimensional continuity equation give, respectively,</p>
+        <center><img src="imgs/area_velocity_s.gif"></center>
+    <p>These two observations provide an intuitive guide for analyzing fluid flows, even when the flow is not one-dimensional. For example, when fluid passes over a solid body,
+         the streamlines get closer together, the flow velocity increases, and the pressure decreases. Airfoils are designed so that the flow over the top surface is faster than 
+         over the bottom surface, and therefore the average pressure over the top surface is less than the average pressure over the bottom surface, and a resultant force due to
+          this pressure difference is produced. This is the source of lift on an airfoil. Lift is defined as the force acting on an airfoil due to its motion, in a direction normal 
+          to the direction of motion. Likewise, drag on an airfoil is defined as the force acting on an airfoil due to its motion, along the direction of motion.
+    </p>
+
+    <h3>Stagnation pressure and dynamic pressure</h3>
+    <p>Bernoulli's equation leads to some interesting conclusions regarding the variation of pressure along a streamline. Consider a steady flow impinging 
+        on a perpendicular plate (figure 16).</p>
+
+        <div class="alinhamento-lado">
+            <img src="imgs/perpendicular_plate.gif">
+            <p>Figure 16. Stagnation point flow.</p>
+        </div>
+
+    <p>There is one streamline that divides the flow in half: above this streamline all the flow goes over the plate, and below this streamline all the flow goes under the plate. 
+        Along this dividing streamline, the fluid moves towards the plate. Since the flow cannot pass through the plate, the fluid must come to rest at the point where it meets 
+        the plate. In other words, it ``stagnates.'' The fluid along the dividing, or ``stagnation streamline'' slows down and eventually comes to rest without deflection at the 
+        stagnation point.</p>
+    
+    <p>Bernoulli's equation along the stagnation streamline gives</p>
+
+    <center><img src="imgs/Bernoulli_stagnation_s.gif"></center>
+
+    <p>where the point e is far upstream and point 0 is at the stagnation point. Since the velocity at the stagnation point is zero,</p>
+    <center><img src="imgs/stagnation_pressure_s.gif"></center>
+
+    <p>The stagnation or total pressure, p_0, is the pressure measured at the point where the fluid comes to rest. It is the highest pressure found anywhere in the flowfield, and it 
+        occurs at the stagnation point. It is the sum of the static pressure (p_0), and the dynamic pressure measured far upstream. 
+        It is called the dynamic pressure because it arises from the motion of the fluid.</p>
+    <p>The dynamic pressure is not really a pressure at all: it is simply a convenient name for the quantity (half the density times the velocity squared), which represents the 
+        decrease in the pressure due to the velocity of the fluid.</p>
+    <p>We can also express the pressure anywhere in the flow in the form of a non-dimensional pressure coefficient C_p, where</p>
+    <center><img src="imgs/C_p_s.gif"></center>
+
+    <p>At the stagnation point C_p = 1, which is its maximum value. In the freestream, far from the plate, C_p = 0.</p>
+
+    <h3>Pitot tube</h3>
+    <p>One of the most immediate applications of Bernoulli's equation is in the measurement of velocity with a Pitot-tube. The Pitot tube (named after the French 
+        scientist Pitot) is one of the simplest and most useful instruments ever devised. It simply consists of a tube bent at right angles (figure 17).</p>
+
+        <div class="alinhamento-lado">
+            <img src="imgs/Pitot_tube.gif">
+            <p>Figure 17. Pitot tube in a wind tunnel.</p>
+        </div>
+
+        <p>By pointing the tube directly upstream into the flow and measuring the difference between the pressure sensed by the Pitot tube and the pressure of the surrounding air flow, 
+            it can give a very accurate measure of the velocity. In fact, it is probably the most accurate method available for measuring flow velocity on a routine basis, and accuracies 
+            better than 1% are easily possible. Bernoulli's equation along the streamline that begins far upstream of the tube and comes to rest in the mouth of the Pitot tube shows the 
+            Pitot tube measures the stagnation pressure in the flow. Therefore, to find the velocity V_e, we need to know the density of air, and the pressure difference (p_0 - p_e). 
+            The density can be found from standard tables if the temperature and the pressure are known. The pressure difference is usually found indirectly by using a ``static pressure 
+            tapping'' located on the wall of the wind tunnel, or on the surface of the model.</p>
+
+  </div>
+    
+</body>
+</html>

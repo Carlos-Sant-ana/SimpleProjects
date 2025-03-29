@@ -53,6 +53,23 @@ nav {
     background-color: #111; /* Cor de fundo do link ao passar o mouse */
   }
 
-  
+  .lista-pontos {
+    list-style-type: disc; /* Define o tipo de marcador como disco (ponto) */
+    padding-left: 20px; /* Adiciona um espaço à esquerda para o recuo */
+    font-family: sans-serif; /* Define a fonte */
+}
+
+.lista-pontos li {
+    margin-bottom: 5px; /* Adiciona um espaço abaixo de cada item */
+}
+
+.alinhamento-lado {
+  display: flex; /* Cria um contêiner flexível */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+.alinhamento-lado img {
+  margin-right: 20px; /* Adiciona um espaço entre a imagem e o texto */
+}
   
   
