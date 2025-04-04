@@ -1,0 +1,313 @@
+[
+    {
+      "ID": 1,
+      "Nome": "2 de Paus",
+      "Foto": "playing-cards-master/clubs_2.png"
+    },
+
+    {
+      "ID": 2,
+      "Nome": "3 de Paus",
+      "Foto": "playing-cards-master/clubs_3.png"
+    },
+
+    {
+      "ID": 3,
+      "Nome": "4 de Paus",
+      "Foto": "playing-cards-master/clubs_4.png"
+    },
+
+    {
+      "ID": 4,
+      "Nome": "5 de Paus",
+      "Foto": "playing-cards-master/clubs_5.png"
+    },
+
+    {
+      "ID": 5,
+      "Nome": "6 de Paus",
+      "Foto": "playing-cards-master/clubs_6.png"
+    },
+
+    {
+      "ID": 6,
+      "Nome": "7 de Paus",
+      "Foto": "playing-cards-master/clubs_7.png"
+    },
+
+    {
+      "ID": 7,
+      "Nome": "8 de Paus",
+      "Foto": "playing-cards-master/clubs_8.png"
+    },
+
+    {
+      "ID": 8,
+      "Nome": "9 de Paus",
+      "Foto": "playing-cards-master/clubs_9.png"
+    },
+
+    {
+      "ID": 9,
+      "Nome": "10 de Paus",
+      "Foto": "playing-cards-master/clubs_10.png"
+    },
+
+    {
+      "ID": 10,
+      "Nome": "A de Paus",
+      "Foto": "playing-cards-master/clubs_A.png"
+    },
+    
+    {
+      "ID": 11,
+      "Nome": "J de Paus",
+      "Foto": "playing-cards-master/clubs_J.png"
+    },
+
+    {
+      "ID": 12,
+      "Nome": "K de Paus",
+      "Foto": "playing-cards-master/clubs_K.png"
+    },
+
+    {
+      "ID": 13,
+      "Nome": "Q de Paus",
+      "Foto": "playing-cards-master/clubs_Q.png"
+    },
+
+    {
+      "ID": 15,
+      "Nome": "2 de Diamente",
+      "Foto": "playing-cards-master/diamonds_2.png"
+    },
+
+    {
+      "ID": 17,
+      "Nome": "3 de Diamente",
+      "Foto": "playing-cards-master/diamonds_3.png"
+    },
+
+    {
+      "ID": 18,
+      "Nome": "4 de Diamente",
+      "Foto": "playing-cards-master/diamonds_4.png"
+    },
+
+    {
+      "ID": 19,
+      "Nome": "5 de Diamente",
+      "Foto": "playing-cards-master/diamonds_5.png"
+    },
+
+    {
+      "ID": 20,
+      "Nome": "6 de Diamente",
+      "Foto": "playing-cards-master/diamonds_6.png"
+    },
+
+    {
+      "ID": 21,
+      "Nome": "7 de Diamente",
+      "Foto": "playing-cards-master/diamonds_7.png"
+    },
+
+    {
+      "ID": 22,
+      "Nome": "8 de Diamente",
+      "Foto": "playing-cards-master/diamonds_8.png"
+    },
+
+    {
+      "ID": 23,
+      "Nome": "9 de Diamente",
+      "Foto": "playing-cards-master/diamonds_9.png"
+    },
+
+    {
+      "ID": 24,
+      "Nome": "10 de Diamente",
+      "Foto": "playing-cards-master/diamonds_10.png"
+    },
+
+    {
+      "ID": 25,
+      "Nome": "A de Diamente",
+      "Foto": "playing-cards-master/diamonds_A.png"
+    },
+
+    {
+      "ID": 26,
+      "Nome": "J de Diamente",
+      "Foto": "playing-cards-master/diamonds_J.png"
+    },
+
+    {
+      "ID": 27,
+      "Nome": "K de Diamente",
+      "Foto": "playing-cards-master/diamonds_K.png"
+    },
+
+    {
+      "ID": 28,
+      "Nome": "Q de Diamente",
+      "Foto": "playing-cards-master/diamonds_Q.png"
+    },
+
+    {
+      "ID": 29,
+      "Nome": "2 de Coração",
+      "Foto": "playing-cards-master/hearts_2.png"
+    },
+
+    {
+      "ID": 30,
+      "Nome": "3 de Coração",
+      "Foto": "playing-cards-master/hearts_3.png"
+    },
+
+    {
+      "ID": 31,
+      "Nome": "4 de Coração",
+      "Foto": "playing-cards-master/hearts_4.png"
+    },
+
+    {
+      "ID": 32,
+      "Nome": "5 de Coração",
+      "Foto": "playing-cards-master/hearts_5.png"
+    },
+
+    {
+      "ID": 33,
+      "Nome": "6 de Coração",
+      "Foto": "playing-cards-master/hearts_6.png"
+    },
+
+    {
+      "ID": 34,
+      "Nome": "7 de Coração",
+      "Foto": "playing-cards-master/hearts_7.png"
+    },
+
+    {
+      "ID": 35,
+      "Nome": "8 de Coração",
+      "Foto": "playing-cards-master/hearts_8.png"
+    },
+
+    {
+      "ID": 36,
+      "Nome": "9 de Coração",
+      "Foto": "playing-cards-master/hearts_9.png"
+    },
+
+    {
+      "ID": 37,
+      "Nome": "10 de Coração",
+      "Foto": "playing-cards-master/hearts_10.png"
+    },
+
+    {
+      "ID": 38,
+      "Nome": "A de Coração",
+      "Foto": "playing-cards-master/hearts_A.png"
+    },
+
+    {
+      "ID": 39,
+      "Nome": "J de Coração",
+      "Foto": "playing-cards-master/hearts_J.png"
+    },
+
+    {
+      "ID": 40,
+      "Nome": "K de Coração",
+      "Foto": "playing-cards-master/hearts_K.png"
+    },
+
+    {
+      "ID": 41,
+      "Nome": "Q de Coração",
+      "Foto": "playing-cards-master/hearts_Q.png"
+    },
+
+    {
+      "ID": 42,
+      "Nome": "2 de Espadas",
+      "Foto": "playing-cards-master/spades_2.png"
+    },
+
+    {
+      "ID": 43,
+      "Nome": "3 de Espadas",
+      "Foto": "playing-cards-master/spades_3.png"
+    },
+
+    {
+      "ID": 44,
+      "Nome": "4 de Espadas",
+      "Foto": "playing-cards-master/spades_4.png"
+    },
+
+    {
+      "ID": 45,
+      "Nome": "5 de Espadas",
+      "Foto": "playing-cards-master/spades_5.png"
+    },
+
+    {
+      "ID": 46,
+      "Nome": "6 de Espadas",
+      "Foto": "playing-cards-master/spades_6.png"
+    },
+
+    {
+      "ID": 47,
+      "Nome": "7 de Espadas",
+      "Foto": "playing-cards-master/spades_7.png"
+    },
+
+    {
+      "ID": 48,
+      "Nome": "8 de Espadas",
+      "Foto": "playing-cards-master/spades_8.png"
+    },
+
+    {
+      "ID": 49,
+      "Nome": "9 de Espadas",
+      "Foto": "playing-cards-master/spades_9.png"
+    },
+
+    {
+      "ID": 50,
+      "Nome": "10 de Espadas",
+      "Foto": "playing-cards-master/spades_10.png"
+    },
+
+    {
+      "ID": 51,
+      "Nome": "A de Espadas",
+      "Foto": "playing-cards-master/spades_A.png"
+    },
+
+    {
+      "ID": 52,
+      "Nome": "J de Espadas",
+      "Foto": "playing-cards-master/spades_K.png"
+    },
+
+    {
+      "ID": 53,
+      "Nome": "K de Espadas",
+      "Foto": "playing-cards-master/spades_K.png"
+    },
+
+    {
+      "ID": 54,
+      "Nome": "Q de Espadas",
+      "Foto": "playing-cards-master/spades_Q.png"
+    }
+]
